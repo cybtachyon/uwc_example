@@ -1,0 +1,35 @@
+{
+  "name": "uwc_example",
+  "version": "1.0.0",
+  "description": "Example Universal Web Components Library",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cybtachyon/uwc_example.git"
+  },
+  "keywords": [
+    "pattern",
+    "webcomponents"
+  ],
+  "author": "Derek Reese",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cybtachyon/uwc_example/issues"
+  },
+  "homepage": "https://github.com/cybtachyon/uwc_example#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "browser-sync": "^2.23.6",
+    "gulp": "github:gulpjs/gulp#4.0",
+    "node-sass": "^4.7.2",
+    "sass-lint": "^1.12.1",
+    "webpack": "^4.6.0",
+    "webpack-dev-middleware": "^3.1.2",
+    "webpack-hot-middleware": "^2.21.2"
+  },
+  "scripts": {
+    "build": "NODE_ENV=production gulp build --require babel-register --gulpfile tasks",
+    "watch": "gulp watch --require babel-register --gulpfile tasks"
+  },
+  "dependencies": {}
+}

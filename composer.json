@@ -1,0 +1,13 @@
+{
+  "name": "cybtachyon/uwc_example",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Derek Reese",
+      "email": "derek@derekree.se"
+    }
+  ],
+  "require": {},
+  "config": {},
+  "repositories": []
+}
